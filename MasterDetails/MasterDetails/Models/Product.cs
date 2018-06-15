@@ -8,6 +8,7 @@ namespace MasterDetails.Models
 {
     public class Product
     {
+        public ProductOrder ProductOrder;
         [Key]
         [Display(Name ="Codigo Producto")]
         public int Productid { set; get; }
@@ -20,5 +21,5 @@ namespace MasterDetails.Models
         public decimal unitprice { set; get; }
 
         public virtual ICollection<Orderdetail> Orderdetails { set; get; }
-    }
+    }    
 }

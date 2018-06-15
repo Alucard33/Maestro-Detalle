@@ -1,0 +1,48 @@
+﻿@model MasterDetails.Models.Product
+
+@{
+    ViewBag.Title = "Eliminar";
+}
+<br /><br /><br />
+<h2>Eliminar</h2>
+
+<h3>¿Estás seguro que quieres eliminar esto?</h3>
+<div>
+    <h4>Orden de Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.productname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.productname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.unitprice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.unitprice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductOrder.quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductOrder.quantity)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar a la Orden", "NewOrder")
+        </div>
+    }
+</div>

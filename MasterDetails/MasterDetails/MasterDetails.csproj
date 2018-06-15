@@ -215,6 +215,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\CustomerOrder.cs" />
+    <Compile Include="Models\dosmodelos.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MasterTiendaContext.cs" />
@@ -311,6 +312,8 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Sales\NewOrder.cshtml" />
     <Content Include="Views\Sales\AddProdut.cshtml" />
+    <Content Include="Views\Sales\Edit.cshtml" />
+    <Content Include="Views\Sales\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

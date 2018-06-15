@@ -1,6 +1,7 @@
 ﻿using MasterDetails.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -81,6 +82,73 @@ namespace MasterDetails.Controllers
             var listp = db.Products.ToList();
             ViewBag.Productid = new SelectList(listp, "Productid", "productname");
             return View("NewOrder",orderview);
-        }       
+        }
+
+        public ActionResult Edit( int? id)
+        {
+            var orderview = Session["OrderView"] as OrderView;
+            var productid = new List<ProductOrder>();  
+                        
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Product product = db.Products.Find(id);
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+            return View(product);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include = "Productid,productname,unitprice,quatity")] Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(product).State = EntityState.Modified;
+                db.SaveChanges();
+                var orderview = Session["OrderView"] as OrderView;
+                var productid = Convert.ToInt32(Request["Productid"]);
+                var list = db.Customers.ToList();
+                ViewBag.Customerid = new SelectList(list, "Customerid", "CompanyName");
+                var listp = db.Products.ToList();
+                ViewBag.Productid = new SelectList(listp, "Productid", "productname");
+                return View("NewOrder", orderview);
+            }
+            return View(product);
+        }
+
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Product product = db.Products.Find(id);
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+            return View(product);
+        }
+
+        // POST: Products/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            var orderview = Session["OrderView"] as OrderView;
+            var productid = Convert.ToInt32(Request["Productid"]);
+            var list = db.Customers.ToList();
+            ViewBag.Customerid = new SelectList(list, "Customerid", "CompanyName");
+            var listp = db.Products.ToList();
+            ViewBag.Productid = new SelectList(listp, "Productid", "productname");            
+            Product product = db.Products.Find(id);
+            db.Products.Remove(product);
+            db.SaveChanges();
+            return RedirectToAction("NewOrder", orderview);
+        }
     }
 }
