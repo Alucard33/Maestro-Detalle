@@ -1,0 +1,74 @@
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.dll.config
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.pdb
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.SqlServer.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Helpers.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Mvc.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Razor.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Webpages.Deployment.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Webpages.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Webpages.Razor.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.SqlServer.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Razor.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Webpages.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Webpages.Deployment.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Webpages.Razor.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Helpers.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Mvc.xml
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.csprojResolveAssemblyReference.cache
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.dll
+D:\Experiment\MyBlogs\MVC\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.pdb
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.dll.config
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.pdb
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.SqlServer.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Helpers.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Mvc.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Razor.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Razor.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.SqlServer.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Helpers.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Mvc.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Razor.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Razor.xml
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\es\System.Web.Razor.resources.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.csprojAssemblyReference.cache
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.csproj.CoreCompileInputs.cache
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.csproj.CopyComplete
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.dll
+C:\Users\arcan\Desktop\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.pdb
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.dll.config
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\AdvMasterDetails.pdb
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.SqlServer.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Helpers.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Mvc.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Razor.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Razor.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\EntityFramework.SqlServer.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Helpers.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Mvc.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.Razor.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\System.Web.WebPages.Razor.xml
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\bin\es\System.Web.Razor.resources.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.csprojAssemblyReference.cache
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.csproj.CoreCompileInputs.cache
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.csproj.CopyComplete
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.dll
+C:\Users\arcan\Desktop\Proyecto Git\AdvMasterDetails\AdvMasterDetails\AdvMasterDetails\obj\Debug\AdvMasterDetails.pdb

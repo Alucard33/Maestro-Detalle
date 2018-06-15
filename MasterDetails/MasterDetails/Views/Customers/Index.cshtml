@@ -1,0 +1,69 @@
+﻿<!--Esta declarfacion especificaque la vista ahora obtiene un objeto "pagedlist" en lugar de objeto "List"-->
+
+@model PagedList.IPagedList<MasterDetails.Models.Customer>
+
+<!--Permite el acceso al ayudante MVC para los botones de BUsqueda-->
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    <!--ViewBag.Title = "Index";-->
+    ViewBag.Title = "Clientes";
+}
+<link href="~/css/tabla.css" rel="stylesheet" />
+<br /><br /><br />
+<h2>Listado de Clientes</h2>
+
+<p>
+    @Html.ActionLink("Agregar Cliente", "Create")
+</p>
+<!--Agregamos un cuadro de texto y un boton para la funcionalidad de busqueda (filtrado)-->
+<!--Modificamos este metodo por la funcionalidad de paginacion-->
+@using (Html.BeginForm("Index", "Customers", FormMethod.Get))
+{
+    <p>
+        Buscar por Nombres: @Html.TextBox("CadenaBuscar", ViewBag.FiltroActual as string)
+        <input type="submit" value="Buscar" class="btn btn-primary" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            <!--Hacemos los cambios para poder hacer el ordenamiento--->
+            @Html.ActionLink("Empresa", "Index", new { sorOrder = ViewBag.COMPANYNAMESortParam, FiltroActual = ViewBag.FiltroActual })
+        </th>
+        <th>
+            <!--Hacemos los cambios para poder hacer el ordenamiento--->
+            @Html.ActionLink("Contacto", "Index", new { sorOrder = ViewBag.CONTACTNAMESortParam, FiltroActual = ViewBag.FiltroActual })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContacName)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.Customerid }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.Customerid }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.Customerid })
+            </td>
+        </tr>
+    }
+
+</table>
+<!--Agregamos para implementar la funcionalidad de paginacion-->
+<br />
+<!--Se muestra la pagina actual y numero total de la pagina-->
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+<!--Los botones de busqueda son mostrados por el Html Helper PagedListPager-->
+<!--El Html Helper PagedListPager proporciona una serie de opciones que puede personalizar, incluidas las Url y el estilo-->
+@Html.PagedListPager(Model, page => Url.Action("Index", new { Page, sortOrder = ViewBag.OrdenamientoActual, FiltroActual = ViewBag.FiltroActual }))

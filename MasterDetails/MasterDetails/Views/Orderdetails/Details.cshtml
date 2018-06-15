@@ -1,0 +1,50 @@
+﻿@model MasterDetails.Models.Orderdetail
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Detalle de Orden</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Order.Orderid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order.Orderid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Products.productname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Products.productname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.unitprice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.unitprice)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.orderdetailid }) |
+    @Html.ActionLink("Regresar al Listado", "Index")
+</p>

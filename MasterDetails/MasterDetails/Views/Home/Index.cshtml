@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Detalle Maestro</h1>
+    <p class="lead">Hacer sus ordenes sera mas facil.</p>
+    <p>@Html.ActionLink("Nueva Orden", "NewOrder", "Sales", new { }, new { @class = "btn btn-default" })</p>
+</div>
+
+        <h2>Productos</h2>
+<div class="row">
+    <div class="col-md-4">
+        <p>
+            Agregue sus productos de una forma sencilla, busque sus productos de una manera agil y ordenada
+        </p>
+        <p>@Html.ActionLink("Productos", "Index", "Products", new { }, new { @class = "btn btn-default" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Clientes</h2>
+        <p>Agregue listado de clientes o proveedores a los cuales les proporcionara sus productos.</p>
+        <p>@Html.ActionLink("Clientes", "Index", "Customers", new { }, new { @class = "btn btn-default" })</p>
+    </div>
+    <div class="col-md-4">
+        <h2>The Monkey System</h2>
+        <p>
+            Somos una empresa de tecnología y diseño en donde creemos que la máxima calidad de un producto se alcanza a través de buenas ideas y los mejores materiales para destacar la imagen del producto.
+
+            The Monkey Systems te brinda los mejores servicios y buscamos la satisfacción de nuestros clientes al crear un producto innovador o una marca destacada.
+        </p>
+        <p><a class="btn btn-default" href="http://themonkeysystems.com/">Visitanos &raquo;</a></p>
+    </div>
+</div>

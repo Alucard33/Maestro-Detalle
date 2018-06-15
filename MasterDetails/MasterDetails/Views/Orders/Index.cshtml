@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MasterDetails.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/css/tabla.css" rel="stylesheet" />
+<br /><br /><br />
+<h2>Listado de Ordenes</h2>
+
+<p>
+    @Html.ActionLink("Agregar Orden", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer.CompanyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.ActionLink("Editare", "Edit", new { id = item.Orderid }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.Orderid }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.Orderid })
+            </td>
+        </tr>
+    }
+
+</table>

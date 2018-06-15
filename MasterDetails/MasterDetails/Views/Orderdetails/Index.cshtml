@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MasterDetails.Models.Orderdetail>
+
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/css/tabla.css" rel="stylesheet" />
+<br /><br /><br />
+<h2>Listado Detalles de Ordenes</h2>
+
+<p>
+    @Html.ActionLink("Agregar Detalle de Orden", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Order.Orderid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Products.productname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.unitprice)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Order.Orderid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Products.productname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.unitprice)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.orderdetailid }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.orderdetailid }) |
+                @Html.ActionLink("Eliminar", "Delete", new { id = item.orderdetailid })
+            </td>
+        </tr>
+    }
+
+</table>
